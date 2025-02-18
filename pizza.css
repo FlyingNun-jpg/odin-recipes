@@ -1,0 +1,74 @@
+/* Stylesheet for pizza.html */
+
+/* Import a fancy font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fdf1de; /* Warm, elegant parchment color */
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Centered container for content */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fffdf7; /* Soft cream white */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e0b96e; /* Gold accent border */
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #c0392b; /* Rich tomato red */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-bottom: 3px solid #e0b96e; /* Gold underline */
+    padding-bottom: 10px;
+}
+
+h2, h3 {
+    color: #a44f2f; /* Warm wood-fired brown */
+    font-family: 'Playfair Display', serif;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 6px solid #e0b96e; /* Gold border for a fancy look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Ingredient List - Remove default bullets and use 🍕 */
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Add pizza emoji before each list item */
+ul li::before {
+    content: "🍕";  /* Pizza emoji */
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+
+/* Parag
